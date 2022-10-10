@@ -6,7 +6,8 @@
 int main(void)
 {
   mrb_state *mrb = mrb_open();
-  if (!mrb) {
+  if (!mrb)
+  {
     puts("error initializing mruby");
     return EXIT_FAILURE;
   }

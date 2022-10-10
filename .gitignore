@@ -3,3 +3,6 @@ app.c
 
 # Compiled binary
 main
+
+# Dev junk
+.vscode
